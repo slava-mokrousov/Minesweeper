@@ -55,16 +55,7 @@ public class Algorithm {
     }
 
     private ArrayList<Group> groups = new ArrayList<>();
-
-    /*public Algorithm(Board board) {
-        for (int i = 0; i < board.getWidth(); i++) {
-            for (int j = 0; j < board.getHeight(); j++) {
-                if (board.getCell(i, j).isClicked() && board.getValue(i, j) != 0) {
-                    groups.add(new Group(board, i, j));
-                }
-            }
-        }
-    }*/
+    
 
     public void findGroups(Board board) {
         for (int i = 0; i < board.getWidth(); i++) {
